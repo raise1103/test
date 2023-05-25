@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: beige;
+  font-family: Microsoft JhengHei;
+}
+
+#logo img {
+  width: 100%;
+}
+
+nav {
+  background-color: #b63d32;
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  padding: 15px 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #ffc90e;
+}
+
+#content {
+  height: 350px;
+  float: left;
+  width: 774px;
+  background-color: #f4f4ed;
+}
+
+#content_in {
+  text-align: center;
+  padding: 30px 50px;
+}
+
+#content h1 {
+  color: #b63d32;
+  margin-bottom: 10px;
+}
+
+#content p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#content a {
+  background-color: #b63d32;
+  text-align: center;
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 0 auto;
+  line-height: 40px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer {
+  clear: both;
+  background-color: #71552a;
+  text-align: center;
+}
+
+footer p {
+  font-size: 10px;
+  color: #ffffff;
+  padding: 10px 0px;
+}
+
+aside {
+  width: 250px;
+  height: 350px;
+  background-color: #ffe634;
+  float: left;
+}
+
+aside ul {
+  display: block;
+  margin: 30px 50px;
+}
+
+aside li a {
+  color: #000;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color: #b63d32;
+  margin: 10px;
+}
+
+aside li a:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  #wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  li a {
+    padding: 10px;
+  }
+}
